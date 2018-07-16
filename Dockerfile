@@ -107,7 +107,6 @@ RUN cd $UHOME/bundle/ \
     && git clone --depth 1 https://github.com/scrooloose/nerdcommenter \
     && git clone --depth 1 https://github.com/godlygeek/tabular \
     && git clone --depth 1 https://github.com/Raimondi/delimitMate \
-    && git clone --depth 1 https://github.com/nathanaelkane/vim-indent-guides \
     && git clone --depth 1 https://github.com/groenewege/vim-less \
     && git clone --depth 1 https://github.com/othree/html5.vim \
     && git clone --depth 1 https://github.com/elzr/vim-json \
