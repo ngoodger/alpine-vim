@@ -3,6 +3,10 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " It will be prepended with https://github.com/amix/vimrc/tree/master/vimrcs (basic.vim extended.vim)
+syntax on
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 
 """"""""""""""""""""""""""""""
@@ -125,7 +129,7 @@ nnoremap <Leader>, :bp<CR>
 " => color and theme
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set background=dark
-colorscheme solarized
+colorscheme elflord
 set relativenumber
 set number
 
